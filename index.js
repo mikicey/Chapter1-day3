@@ -18,7 +18,7 @@ function submitData(){
     // Open Mail
     const targetEmail = "darren0208.dc@gmail.com"
     const url = document.createElement("a");
-    url.href = `mailto:${targetEmail}?subject-${subject.value}&body-${message.value}`;
+    url.href = `mailto:${targetEmail}?subject=${subject.value}&body=${message.value}`;
     url.click()
 
     // Clear input
